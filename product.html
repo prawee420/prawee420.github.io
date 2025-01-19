@@ -1,1 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
 
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-links">
+                <a class="nav-btn" href="index.html">Main</a>
+                <a class="nav-btn" href="product.html">Products</a>
+                <a class="nav-btn" href="#">Info</a>
+                <a class="nav-btn" href="#">Support</a>
+            </div>
+            <img src="https://as1.ftcdn.net/jpg/02/04/95/36/1000_F_204953687_77A6a5w97NUAyUmJwQ1IbKab8nQQD8FB.jpg" alt="cart" class="cart nav-btn">
+        </div>
+    </nav>   
+    <div class="blank"></div>
+
+    <div class="search-container">
+    <form onsubmit="return false;">
+        <input type="text" id="search"  onkeyup="searchProducts()()" placeholder="Search..">
+    <button type="submit"> search </button> 
+</form>
+    </div>
+
+    <div class="products-container-pro" id="productsContainer">
+        <div class="product-card-pro Bag กระเป๋าหิ้ว กระเป๋าสะพายไหล่ กระเป๋า black ดำ">
+            <img src="https://www.lynaccs.com/cdn/shop/files/LL23FBF008_BLK000_1_0a65c987-8253-4498-a43c-7bbcb503420d.jpg?v=1733114539" alt="Leather Bag 1">
+            <h3>Gliter Leather Bag</h3>
+            <p class="price">฿5,799</p>
+            <p class="description">Elegant leather handbag with gold hardware</p>
+        </div>
+        <div class="product-card-pro Bag กระเป๋าหิ้ว กระเป๋าสะพายไหล่ กระเป๋า black ดำ">
+            <img src="https://underarmour.scene7.com/is/image/Underarmour/1369212-001_SLB_SL?rp=standard-0pad|pdpMainDesktop&scl=1&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=F0F0F0&wid=566&hei=708&size=566,708" alt="Shoulder Bag">
+            <h3>Black items Bag</h3>
+            <p class="price">฿8,599</p>
+            <p class="description">Stylish everyday shoulder bag</p>
+        </div>
+        <div class="product-card-pro Bag กระเป๋าหิ้ว กระเป๋าสะพายไหล่ กระเป๋า black ดำ ขายดี">
+            <img src="https://www.charleskeith.co.th/dw/image/v2/BCWJ_PRD/on/demandware.static/-/Sites-th-products/default/dwd19d5d46/images/hi-res/2024-L2-CK2-80151362-A-J8-1.jpg?sw=756&sh=1008" alt="Mini Crossbody">
+            <h3>Classic Leather Bag</h3>
+            <p class="price">฿10,890</p>
+            <p class="description">Compact crossbody for essentials</p>
+        </div>
+        <div class="product-card-pro Bag กระเป๋าหิ้ว กระเป๋าสะพายไหล่ กระเป๋า black ดำ">
+            <img src="https://www.ppgroupthailand.com/media/catalog/product/l/2/l2605919p66_0.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=1000&width=1000" alt="Tote Bag">
+            <h3>Black guava</h3>
+            <p class="price">฿15,790</p>
+            <p class="description">Spacious tote for work or travel</p></div>
+
+        <div class="product-card-pro Bag กระเป๋าหิ้ว กระเป๋าสะพายไหล่ กระเป๋า ขาว white">
+                <img src="https://www.lynaccs.com/cdn/shop/files/LL23FBF008_WHT600_1_78625926-a8df-406b-b3a1-c269d5f84ff4.jpg?v=1728363618" alt="Leather Bag 1">
+                <h3>White curve</h3>
+                <p class="price">฿8,590</p>
+                <p class="description">Elegant leather handbag with gold hardware</p>
+            </div>
+            <div class="product-card-pro Bag กระเป๋าหิ้ว กระเป๋าสะพายไหล่ กระเป๋า white ขาว">
+                <img src="https://www.prontodenim.com/wp-content/uploads/2024/10/1-19-1.jpg" alt="Shoulder Bag">
+                <h3>White fluff</h3>
+                <p class="price">฿5,290</p>
+                <p class="description">Stylish everyday shoulder bag</p>
+            </div>
+            <div class="product-card-pro กระเป๋าเงิน กระเป๋าตัง wallet small ลายดำขาว Black white">
+                <img src="https://static.wixstatic.com/media/d62685_18c6465962e740079a975ca11bd51c8b~mv2.jpg/v1/fill/w_480,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d62685_18c6465962e740079a975ca11bd51c8b~mv2.jpg" alt="Mini Crossbody">
+                <h3>Zebra letter</h3>
+                <p class="price">฿5,890</p>
+                <p class="description">Compact crossbody for essentials</p>
+            </div>
+            <div class="product-card-pro กระเป๋าเงิน กระเป๋าตัง wallet small red แดง">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfh8LZNCXOVDiShqigQcJPXaMpby8nIOKAIw&s" alt="Tote Bag">
+                <h3>Red plum</h3>
+                <p class="price">฿4,790</p>
+                <p class="description">Spacious tote for work or travel</p>
+            </div>
+            <div class="product-card-pro กระเป๋าเงิน กระเป๋าตัง wallet small ครีม cream">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg_SvCt5IqKG6bM1B500qF7GhpuUbRkyZhQQ&s" alt="Leather Bag 1">
+                <h3>Cream petite</h3>
+                <p class="price">฿4,590</p>
+                <p class="description">Elegant leather handbag with gold hardware</p>
+            </div>
+            <div class="product-card-pro กระเป๋าเงิน กระเป๋าตัง wallet small cream ครีม">
+                <img src="https://saint-laurent.dam.kering.com/m/719efcd5d71ee1e2/Medium-414404AAA441722_A.jpg?v=12" alt="Shoulder Bag">
+                <h3>Mini cream wallet</h3>
+                <p class="price">฿5,290</p>
+                <p class="description">Stylish everyday shoulder bag</p>
+            </div>
+            <div class="product-card-pro Bag กระเป๋าหิ้ว กระเป๋าสะพายไหล่ กระเป๋า ลาย">
+                <img src="https://assets.central.co.th/COACH-EveShoulderBagInSignatureTextileJacquardBrown-MKP1628416-1?$JPEG$&wid=550" alt="Mini Crossbody">
+                <h3>Eyes cross</h3>
+                <p class="price">฿10,890</p>
+                <p class="description">Compact crossbody for essentials</p>
+            </div>
+            <div class="product-card-pro Bag กระเป๋าหิ้ว กระเป๋าสะพายไหล่ กระเป๋า ขาว white">
+                <img src="https://cdn.shopify.com/s/files/1/0507/4927/6346/products/B23WBHI100_GRY000_2.jpg?v=1728372763" alt="Tote Bag">
+                <h3>Fluff shoulder</h3>
+                <p class="price">฿10,790</p>
+                <p class="description">Spacious tote for work or travel</p>
+            </div>
+            <div class="product-card-pro กระเป๋าเงิน กระเป๋าตัง wallet small rose pink ชมพู">
+                <img src="https://m.media-amazon.com/images/I/71y3fLGW-1L._AC_UY1100_.jpg" alt="Leather Bag 1">
+                <h3>Pink flush</h3>
+                <p class="price">฿7,590</p>
+                <p class="description">Elegant leather handbag with gold hardware</p>
+            </div>
+            <div class="product-card-pro Bag กระเป๋าหิ้ว กระเป๋าสะพายไหล่ กระเป๋า ขาว white">
+                <img src="https://thailand.coach.com/media/catalog/product/3/8/38d7f2fc08aee0d10efe50152575d66198de55a7163f173d6d46a5b40b682d13.jpeg?optimize=low&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700" alt="Shoulder Bag">
+                <h3>Lux white</h3>
+                <p class="price">฿12,290</p>
+                <p class="description">Stylish everyday shoulder bag</p>
+            </div>
+            <div class="product-card-pro Bag กระเป๋าหิ้ว กระเป๋าสะพายไหล่ กระเป๋า มิ้น mint">
+                <img src="https://assets.central.co.th/COACH-JonieBagBlue-MKP1818817-3?$JPEG$&wid=550" alt="Mini Crossbody">
+                <h3>Minty cir</h3>
+                <p class="price">฿8,890</p>
+                <p class="description">Compact crossbody for essentials</p>
+            </div>
+            <div class="product-card-pro Bag กระเป๋าหิ้ว กระเป๋าสะพายไหล่ กระเป๋า cream ครีม">
+                <img src="https://www.lynaccs.com/cdn/shop/files/LL24SBS008_BEG500_1_bb267ff7-37a0-450f-aeba-390997c5efc7.jpg?v=1722498027" alt="Tote Bag">
+                <h3>Jolie bag</h3>
+                <p class="price">฿5,790</p>
+                <p class="description">Spacious tote for work or travel</p>
+            </div>
+            <div class="product-card-pro Bag กระเป๋าหิ้ว กระเป๋าสะพายไหล่ กระเป๋า ส้ม orange">
+                <img src="https://shoes-republic.com/cdn/shop/files/cassetta-orange-crossbody-bag2_800x.jpg?v=1705227209" alt="Leather Bag 1">
+                <h3>Tangerine</h3>
+                <p class="price">฿5,590</p>
+                <p class="description">Elegant leather handbag with gold hardware</p>
+            </div>
+            <div class="product-card-pro Bag กระเป๋าหิ้ว กระเป๋าสะพายไหล่ กระเป๋า orange ส้ม">
+                <img src="https://www.moimoi-accessories.com/cdn/shop/products/SOFIA_small_brown_side_1024x1024.jpg?v=1652184924" alt="Shoulder Bag">
+                <h3>Brick </h3>
+                <p class="price">฿7,290</p>
+                <p class="description">Stylish everyday shoulder bag</p>
+            </div>
+            <div class="product-card-pro กระเป๋าเงิน กระเป๋าตัง wallet small ส้ม orange">
+                <img src="https://cdn11.bigcommerce.com/s-uiywfsyvbe/images/stencil/1280x1280/products/610/4699/4699__85693.1667672534.jpg?c=1" alt="Mini Crossbody">
+                <h3>Thai tea</h3>
+                <p class="price">฿5,890</p>
+                <p class="description">Compact crossbody for essentials</p>
+            </div>
+            <div class="product-card-pro กระเป๋าเงิน กระเป๋าตัง wallet small pink ชมพู">
+                <img src="https://m.media-amazon.com/images/I/61chuXsb8zL._AC_UY1000_.jpg" alt="Tote Bag">
+                <h3>Mix pink</h3>
+                <p class="price">฿4,790</p>
+                <p class="description">Spacious tote for work or travel</p>
+            </div>
+    
+
+        
+
+
+            <script src="script.js"></script> 
+</body>
+</html>
