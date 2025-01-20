@@ -284,6 +284,21 @@ nav {
     color: #000000;
     text-align: center;
 }
+.cart-icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
 
 /* หน้าproduct */
 form {
@@ -368,4 +383,20 @@ input[type=text] {
     margin: 5px 0;
 }
 
+.add-cart {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
 
+.add-cart:hover {
+    background-color: #45a049;
+}
+
+.blank2{
+    height: 50px;
+}
