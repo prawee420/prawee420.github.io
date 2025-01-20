@@ -1,5 +1,4 @@
-
-        let currentPosition = 0;
+  let currentPosition = 0;
         const track = document.getElementById('carouselTrack-c');
         const cards = document.querySelectorAll('.product-card-c');
         const cardWidth = cards[0].offsetWidth + 16; 
@@ -30,7 +29,7 @@
                 moveCarousel(-1);
             }
         });
-
+//หน้าproduct
         function searchProducts() {
         
             const searchText = document.getElementById('search').value.toLowerCase();
@@ -59,3 +58,4 @@
             }
         });
     });
+    
